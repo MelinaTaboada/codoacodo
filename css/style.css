@@ -1,0 +1,96 @@
+header {
+   background: #53575c;
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   position: fixed;
+   top: 0;
+   z-index: 10;
+}
+
+
+.logo {
+   display: inherit;
+   background-color: #53575c;
+}
+
+.logo img {
+   height: 80px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+
+nav {
+   display: block;
+   position: absolute;
+   top: 30px;
+   right: 100px;
+   font-family:  Verdana;
+   font-size: 90%;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+}
+
+
+.container_main{
+   height: auto;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+
+.container_main img{
+   height: auto;
+   width: 100%;
+  filter: brightness(50%);
+}
+
+.container_main .card{
+   font-size: 15px;
+   color:white;
+   text-align: right;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   right: 15%;
+ background: none;
+} 
+
+.texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.row {    
+   margin: 20px 200px 20px 200px;
+} 
+
+
+footer{
+   background-color: rgba(58, 121, 150, 0.884);
+   display:block;
+   position:relative;
+  padding-bottom: 10px;
+}
+
+.piedepagina{
+    display: flex;
+  position:static;
+   font-family: Verdana;
+   font-size: 10px;
+  justify-content: center;
+}
+
+
+.footer-links{
+   color: white;
+   padding-top: 30px;
+  padding-left: 30px;
+   padding-right: 30px; 
+   width: 10%; 
+} 
