@@ -3,7 +3,7 @@ header {
    display: inline-block;
    width: 100%;
    height: auto;
-   position: fixed;
+   position: flex;
    top: 0;
    z-index: 10;
 }
